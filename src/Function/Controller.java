@@ -3,7 +3,10 @@ package Function;
 import java.util.ArrayList;
 
 /**
- * Created by Azeem on 31-May-17.
+ * @author      Azeem Mirza <contact@azeemirza.com>
+ * @version     0.1.1
+ * @since       0.1.0
+ * @date        31-5-2017
  */
 public class Controller {
     String Operand1;
