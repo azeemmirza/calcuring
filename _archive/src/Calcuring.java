@@ -37,6 +37,7 @@ public class Calcuring {
         scan.close();
 
     }
+
     private static void ArrayPrinter (ArrayList<Character> Tape){
         Iterator itr = Tape.iterator();
         System.out.print("[ ");
