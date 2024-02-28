@@ -16,7 +16,6 @@ To get started with the Calcuring project, follow these steps:
     ```
     python .
     ```
-----
 
 ## Turing Machines
 
