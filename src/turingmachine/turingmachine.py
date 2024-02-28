@@ -1,24 +1,10 @@
-from . import exceptions
-from . import tape as tapemod
-
-#: Represents a movement of the read/write head of the Turing machine to the
-#: left.
-L = -1
-
-#: Represents a movement of the read/write head of the Turing machine to the
-#: right.
-R = +1
-
-S = 0
-
-HALT = 'H'
-
-BLANK = '#'
+from .exceptions import UnknownState, UnknownSymbol, BadSymbol
+from .tape import Tape
 
 
 class TuringMachine:
     def __init__(self, tape='', blank_symbol=' '):
-        self.__tape = tapemod.Tape(tape, blank_symbol)
+        self.__tape = Tape(tape, blank_symbol)
 
     def __call__(self, machine=None, *args, **kwargs):
         if machine is None:
@@ -33,7 +19,7 @@ class TuringMachine:
         while running:
             if current_state not in machine:
                 running = False
-                raise exceptions.UnknownState()
+                raise UnknownState()
 
             char = self.__tape.get_item(head_position)
             state = machine[current_state]
@@ -43,13 +29,13 @@ class TuringMachine:
 
             if char not in state:
                 running = False
-                raise exceptions.UnknownSymbol()
+                raise UnknownSymbol()
 
             transition = state[char]
 
             if char != transition[0]:
                 running = False
-                raise exceptions.BadSymbol()
+                raise BadSymbol()
 
             self.__tape.set_item(head_position, transition[1])
             head_position += transition[3]
