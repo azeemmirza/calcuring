@@ -1,5 +1,5 @@
 import re
-import machines
+from . import machines
 from turingmachine.turingmachine import TuringMachine
 from turingmachine.constants import BLANK
 
