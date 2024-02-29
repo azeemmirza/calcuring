@@ -17,7 +17,7 @@ To get started with the Calcuring project, follow these steps:
     python .
     ```
 
-## Turing Machines
+# Turing Machines
 
 Turing Machines are abstract mathematical models of computation introduced by the mathematician and logician Alan Turing in 1936. They are named after him and are foundational in the field of theoretical computer science. Turing Machines provide a formal framework for understanding the concept of computation, and they have been instrumental in proving fundamental results about the limits and capabilities of computing devices.
 
@@ -43,3 +43,28 @@ Turing Machines are abstract mathematical models of computation introduced by th
 
 ### Reference:
 Turing, Alan (1950) - _[Computing Machinery and Intelligence](https://academic.oup.com/mind/article/LIX/236/433/986238), Mind, Volume LIX, Issue 236, October 1950_
+
+# Calculator Implementation
+
+The Turing Machine is sep-tuplets. The Turing machine mathematically models a mechanically operating machine on a tape. It has the tape for taking input from the cell. The tape by default has the blank symbol **#** in all the cells. The head for moving in the right or left direction to perform read/write operation. A state register that has the initial value, as a start state for storing the Turing Machine's state. Then a finite table of instruction. 
+
+The Turing Machine used to perform the arithmetic operations namely addition, subtraction, multiplication, and division explained using the transition diagram, transition table, and the example input.
+
+The basic calculation frequently refers the basic arithmetic operations, as following:
+1. Addition - _represented by the operator **+**_
+2. Subtraction - _represented by the operator **−**_
+3. Multiplication - _represented by the operator **x** or **·** or *_
+4. Division - _represented by the operator **÷** or /_
+
+### Addition
+
+### Subtraction
+
+### Multiplication
+
+### Division
+
+
+---
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
