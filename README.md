@@ -75,6 +75,7 @@ Divide operator is represented by **/**
 
 ![turing-machine-division-operation](imgs/division.png)
 
----
+
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
