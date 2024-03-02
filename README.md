@@ -60,7 +60,7 @@ Addition operator is represented by **+**
 
 ### Subtraction
 
-Subtract operator is represented by **+**
+Subtract operator is represented by **-**
 
 ![turing-machine-subtraction-operation](imgs/subtraction.png)
 
