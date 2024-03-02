@@ -56,24 +56,24 @@ The basic calculation frequently refers the basic arithmetic operations, as foll
 
 Addition operator is represented by **+**
 
-![turing-machine-addition-operation](./docs/imgs/addition.png)
+![turing-machine-addition-operation](imgs/addition.png)
 
 ### Subtraction
 
 Subtract operator is represented by **+**
 
-![turing-machine-subtraction-operation](./docs/imgs/subtraction.png)
+![turing-machine-subtraction-operation](imgs/subtraction.png)
 
 ### Multiplication
 
 Multiply operator is represented by **x**
 
-![turing-machine-multiplication-operation](./docs/imgs/multiplication.png)
+![turing-machine-multiplication-operation](imgs/multiplication.png)
 
 ### Division
 Divide operator is represented by **/**
 
-![turing-machine-division-operation](./docs/imgs/division.png)
+![turing-machine-division-operation](imgs/division.png)
 
 ---
 ## License
