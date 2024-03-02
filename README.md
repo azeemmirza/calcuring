@@ -51,19 +51,29 @@ The Turing Machine is sep-tuplets. The Turing machine mathematically models a me
 The Turing Machine used to perform the arithmetic operations namely addition, subtraction, multiplication, and division explained using the transition diagram, transition table, and the example input.
 
 The basic calculation frequently refers the basic arithmetic operations, as following:
-1. Addition - _represented by the operator **+**_
-2. Subtraction - _represented by the operator **−**_
-3. Multiplication - _represented by the operator **x** or **·** or *_
-4. Division - _represented by the operator **÷** or /_
 
 ### Addition
 
+Addition operator is represented by **+**
+
+![turing-machine-addition-operation](./docs/imgs/addition.png)
+
 ### Subtraction
+
+Subtract operator is represented by **+**
+
+![turing-machine-subtraction-operation](./docs/imgs/subtraction.png)
 
 ### Multiplication
 
-### Division
+Multiply operator is represented by **x**
 
+![turing-machine-multiplication-operation](./docs/imgs/multiplication.png)
+
+### Division
+Divide operator is represented by **/**
+
+![turing-machine-division-operation](./docs/imgs/division.png)
 
 ---
 ## License
