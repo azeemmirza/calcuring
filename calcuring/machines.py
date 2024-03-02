@@ -132,7 +132,7 @@ DIVISION_MACHINE = {
     },
     6: {
         'E': ('E', '1', 6, R),
-        'Z': ('Z', 'Z', 7, L),
+        'Z': ('Z', 'Z', 6, R),
         BLANK: (BLANK, 'Z', 7, L),
     },
     7: {
